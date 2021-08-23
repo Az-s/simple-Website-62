@@ -7,8 +7,9 @@ const MainContent = () => {
             <Carousel fade>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 auto"
+                        className="d-block w-100"
                         src="https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        style={{ height: '55rem' }} 
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -20,6 +21,7 @@ const MainContent = () => {
                     <img
                         className="d-block w-100"
                         src="https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        style={{ height: '55rem' }} 
                         alt="Second slide"
                     />
 
@@ -32,6 +34,7 @@ const MainContent = () => {
                     <img
                         className="d-block w-100"
                         src="https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        style={{ height: '55rem' }} 
                         alt="Third slide"
                     />
 

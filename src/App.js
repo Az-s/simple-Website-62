@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import MainContent from './components/MainContent';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
+import Video from './components/Video';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -14,6 +15,7 @@ const App = () => {
       <Router>
         <MainContent />
         <Services />
+        <Video id={'0GZSfBuhf6Y'}/>
         <AboutUs />
       </Router>
       <Footer />
