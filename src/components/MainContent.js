@@ -8,7 +8,7 @@ const MainContent = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 auto"
-                        src="https://images.pexels.com/photos/21787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                        src="https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -19,7 +19,7 @@ const MainContent = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                        src="https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
                         alt="Second slide"
                     />
 
@@ -31,7 +31,7 @@ const MainContent = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="../assets/img4.jpg"
+                        src="https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
                         alt="Third slide"
                     />
 

@@ -6,9 +6,11 @@ const Footer = () => {
         <>
             <Navbar bg="dark" variant="dark" sticky='sticky-top'>
                 <Container>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Footer 2021.</Nav.Link>
-                    </Nav>
+                    <Navbar.Collapse className="justify-content-center">
+                        <Navbar.Text>
+                            Footer 2021
+                        </Navbar.Text>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
