@@ -5,7 +5,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <div className='footer-container'>
+        <div className='footer-container d-flex flex-column min-vh-100'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Join the Adventure newsletter to receive our best vacation deals

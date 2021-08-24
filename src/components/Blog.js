@@ -5,7 +5,7 @@ import './Blog.css';
 const Blog = () => {
     return (
         <>
-            <Container>
+            <Container className='d-flex flex-column min-vh-100'>
                 <Row>
                     <Col xs={6} md={12} className='my-5'>
                         <Card style={{ width: '100%' }} className='flip-container'>

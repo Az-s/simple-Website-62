@@ -4,8 +4,8 @@ import './Video.css';
 
 const Video = ({ id }) => {
     return (
-        <Container>
-            <Row>
+        <Container className='d-flex flex-column min-vh-100'>
+            <Row className="mt-5">
                 <Col sm={8}>
                     <div className="video-responsive my-5">
                         <iframe

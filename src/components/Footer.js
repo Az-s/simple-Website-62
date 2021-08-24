@@ -4,7 +4,7 @@ import { Navbar, Container} from 'react-bootstrap';
 const Footer = () => {
     return (
         <>
-            <Navbar bg="dark" variant="dark" style={{ bottom: '0'}}>
+            <Navbar bg="dark" variant="dark" className='mt-auto' style={{marginTop: 'calc(100% - 260px)'}}>
                 <Container style={{height: 'calc(100% - 60px)'}}>
                     <Navbar.Collapse className="justify-content-center">
                         <Navbar.Text>

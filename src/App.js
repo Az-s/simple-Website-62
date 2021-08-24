@@ -7,21 +7,30 @@ import Services from './components/Services';
 import Video from './components/Video';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
       <Router>
-        <div className='navbar'>
-          <li><NavLink to='/'>home</NavLink></li>
-          <li><NavLink to='/video'>video</NavLink></li>
-          <li><NavLink to='/services'>services</NavLink></li>
-          <li><NavLink to='/blog'>services</NavLink></li>
-          <li><NavLink to='/about'>services</NavLink></li>
-        </div>
+        <Navbar bg="dark" variant="dark" sticky='top'>
+          <Container>
+            <Navbar.Brand href="/">Travel</Navbar.Brand>
+            <Nav className="me-auto">
+              <NavLink to='/' exact activeStyle={{ color: '#4e5559' }}>Home</NavLink>
+              <NavLink to='/video' exact activeStyle={{ color: '#4e5559' }}>Video</NavLink>
+              <NavLink to='/services' exact activeStyle={{ color: '#4e5559' }}>Services</NavLink>
+              <NavLink to='/blog' exact activeStyle={{ color: '#4e5559' }}>Blog</NavLink>
+            </Nav>
+            <Nav>
+              <NavLink to='/about' exact activeStyle={{ color: '#4e5559' }}>About Us</NavLink>
+            </Nav>
+          </Container>
+        </Navbar>
 
-        <NavBar />
+        {/* <NavBar />  вариант через bootstrap не уверен что годится именно под это задание*/}
+
         <Route exact path='/' component={MainContent} />
         <Route path='/video' component={Video} />
         <Route path='/services' component={Services} />
