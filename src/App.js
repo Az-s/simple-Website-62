@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, NavLink, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import MainContent from './components/MainContent';
 import AboutUs from './components/AboutUs';
@@ -13,6 +13,14 @@ const App = () => {
   return (
     <div className="App">
       <Router>
+        <div className='navbar'>
+          <li><NavLink to='/'>home</NavLink></li>
+          <li><NavLink to='/video'>video</NavLink></li>
+          <li><NavLink to='/services'>services</NavLink></li>
+          <li><NavLink to='/blog'>services</NavLink></li>
+          <li><NavLink to='/about'>services</NavLink></li>
+        </div>
+
         <NavBar />
         <Route exact path='/' component={MainContent} />
         <Route path='/video' component={Video} />
