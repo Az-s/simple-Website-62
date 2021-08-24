@@ -2,7 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Video.css';
 
-const Video = ({ id }) => {
+const Video = () => {
+    
     return (
         <Container className='d-flex flex-column min-vh-100'>
             <Row className="mt-5">
