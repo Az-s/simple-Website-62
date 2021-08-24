@@ -6,15 +6,15 @@ const NavBar = () => {
         <>
             <Navbar bg="dark" variant="dark" sticky='top'>
                 <Container>
-                    <Navbar.Brand href="#home">Travel</Navbar.Brand>
+                    <Navbar.Brand href="/">Travel</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Video</Nav.Link>
-                        <Nav.Link href="#pricing">Services</Nav.Link>
-                        <Nav.Link href="#deets">Blog</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/video">Video</Nav.Link>
+                        <Nav.Link href="/services">Services</Nav.Link>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">About Us</Nav.Link>
+                        <Nav.Link href="/about">About Us</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
